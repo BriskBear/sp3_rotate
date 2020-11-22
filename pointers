@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export touchID=$(xinput --list --id-only "pointer:NTRG0001:01 1B96:1B05")
+export penID=$(xinput --list --id-only "pointer:NTRG0001:01 1B96:1B05 Pen (0)")
+export eraserID=$(xinput --list --id-only "pointer:NTRG0001:01 1B96:1B05 Eraser (0)")
